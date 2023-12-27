@@ -1,0 +1,35 @@
+@import url('../index.css');
+
+
+.red-bg {
+    background-color: var(--red-color);
+}
+
+.black-bg {
+    background-color: var(--black-color);
+}
+
+.orange-bg {
+    background-color: var(--orange-color);
+}
+
+/* fix button so that it is just plane*/
+.rounded-button { 
+    border: none;
+    outline: none;
+    width: 228px;
+    height: 56px;
+    border-radius: 28px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16;
+}
+
+.black-bg:hover {
+    background-color: var(--purple-color);
+}
+
+.red-bg:hover {
+    background-color: var(--orange-color);
+}
