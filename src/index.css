@@ -1,0 +1,18 @@
+:root {
+  --purple-color: #755CDE;
+  --orange-color: #F6A560;
+  --peach-color: #F39E9E;
+  --red-color: #EB7565;
+  --mint-color: #61C4B7;
+  --brown-color: #552049;
+  --black-color: #030303;
+  --grey-color: #7A746E;
+  --white-color: #FFF7F0;
+}
+
+body {
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+@import url('index.css');
+
+p {
+  background-color: var(--purple-color);
+}
