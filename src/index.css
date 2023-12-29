@@ -16,3 +16,45 @@ body {
   justify-content: center;
   margin: 0;
 }
+
+.purple-bg {
+  background-color: var(--purple-color);
+}
+
+.orange-bg {
+  background-color: var(--orange-color);
+}
+
+.peach-bg {
+  background-color: var(--peach-color);
+}
+
+.red-bg {
+  background-color: var(--red-color);
+}
+
+.mint-bg {
+  background-color: var(--mint-color);
+}
+
+.brown-bg {
+  background-color: var(--brown-color);
+}
+
+.black-bg {
+  background-color: var(--black-color);
+}
+
+.grey-bg {
+  background-color: var(--grey-color);
+}
+
+.white-bg {
+  background-color: var(--white-color);
+}
+
+
+* {
+  border: 1px solid red;
+}
+
