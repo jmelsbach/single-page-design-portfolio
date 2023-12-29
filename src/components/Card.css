@@ -1,0 +1,94 @@
+@import url('../index.css');
+
+.large {
+    height: 364px;
+    width: 354px;
+}
+
+.medium {
+    width: 354px;
+    height: 158px;
+} 
+
+.medium-alt {
+    width: 354px;
+    height: 182px;
+} 
+
+.small {
+    width: 164px;
+    height: 182px;
+}
+
+
+.card {
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+
+.large > img {
+    width: 128px;
+    height: 192px;
+}
+
+.medium > img {
+    width: 128px;
+    height: 64px;
+}
+
+.small > img {
+    width: 64px;
+    height: 64px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1187px) {
+    .large {
+        width: 333px;
+    }
+    
+    .medium {
+        width: 333px;
+    } 
+    
+    .medium-alt {
+        width: 333px;
+    } 
+    
+    .small {
+        width: 155px;
+    }
+  }
+  @media (max-width: 767px) {
+    section {
+      width: 365px;
+    }
+  }
