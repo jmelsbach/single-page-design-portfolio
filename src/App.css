@@ -3,3 +3,30 @@
 p {
   background-color: var(--purple-color);
 }
+
+
+main {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1187px) {
+  section {
+    width: 690px;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    width: 365px;
+  }
+}
+
+
