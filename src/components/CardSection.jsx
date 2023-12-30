@@ -16,13 +16,13 @@ export default function CardSection() {
             <div className="card-section">
                 <div className="card-container"><Card src={graphicDesignIcon} className='large purple-bg'>Graphic Design</Card></div>
                 <div className="card-container">
-                    <div className="card-row"><Card src={uiUxIcon} className='small orange-bg'>Graphic Design</Card>
-                    <Card src={appIcon} className='small peach-bg'>Graphic Design</Card></div>
-                    <Card src={illustrationIcon} className='medium red-bg'>Graphic Design</Card>
+                    <div className="card-row"><Card src={uiUxIcon} className='small orange-bg'>UI/UX</Card>
+                    <Card src={appIcon} className='small peach-bg'>Apps</Card></div>
+                    <Card src={illustrationIcon} className='medium red-bg'>Illustrations</Card>
                 </div>
-                <div className="card-container">
-                    <Card src={motionGraphicsIcon} className='medium-alt mint-bg'>Graphic Design</Card>
-                    <Card src={photographyIcon} className='medium-alt brown-bg'>Graphic Design</Card>
+                <div className="card-container extra-width">
+                    <Card src={motionGraphicsIcon} className='medium-alt mint-bg'>Photography</Card>
+                    <Card src={photographyIcon} className='medium brown-bg grow'>Motion Graphics</Card>
                 </div>
             </div>
         </section>
