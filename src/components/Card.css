@@ -86,9 +86,16 @@
     .small {
         width: 155px;
     }
+
+    .grow {
+        height: 182px;
+  }
   }
   @media (max-width: 767px) {
     section {
       width: 365px;
     }
-  }
+
+    .grow {
+        height: 182px;
+    }}
