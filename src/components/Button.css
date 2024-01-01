@@ -33,3 +33,10 @@
 .red-bg:hover {
     background-color: var(--orange-color);
 }
+
+@media (max-width: 767px) {
+    .rounded-button {
+        width: 176px;
+        height: 44px;
+    }
+  }

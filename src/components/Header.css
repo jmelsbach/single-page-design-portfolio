@@ -4,4 +4,26 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 34px;
+    justify-content: center;
 }
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        height: 48px;
+        width: 48px;
+    }
+
+    .header-container {
+        width: 333px;
+    }
+  }
+
+  
